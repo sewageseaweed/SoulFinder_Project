@@ -1,0 +1,74 @@
+#title {
+    font-size: 40px;
+    position: fixed;
+    top: 140px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.allpage {
+    background-image: url(https://www.xmple.com/wallpaper/gradient-linear-brown-white-1920x1080-c2-ffdead-f5f5dc-a-255-f-14.svg);
+}
+ 
+.title {
+    font-size: 40px;
+    position: fixed;
+    top: 140px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#finder {
+    border-style: solid;
+    border-width:1px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 165px;
+    margin: auto;
+    background-color: #f3f3f3;
+}
+ 
+#about_button {
+    position: fixed;
+    left: 1%;    
+    color: gray;
+}
+ 
+#about_button2 {
+    position: fixed;
+    left: 5%;    
+    color: gray;
+}
+ 
+#contact_button {
+    position: fixed;
+    left:5%;
+    color: gray;
+}
+ 
+#home_button {
+    position: fixed;
+    left:1%;
+    color: gray;
+}
+ 
+.text {
+    border-style: solid;
+    border-width:1px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 165px;
+    margin: auto;
+    background-color: #f3f3f3;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            {{name}}
+        </title>
+       
+        <style>
+            body {
+                background-image: url("https://i.pinimg.com/originals/1f/7e/57/1f7e57b2a7caeb78ba68f643c56d5e21.jpg");
+            }
+            .blue {
+                color: navy;
+                font-size: 22px;
+                font-style: normal;
+                font-family: verdana;
+            }
+            .box {
+                background-color: rgb(204, 235, 255);
+                text-align: center;
+                display: grid;
+                
+            }
+            #font {
+                font-family: "Montserrat", sans-serif;
+                font-size: 40px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .insidebox {
+                font-size: 10px;
+                font-family: courier;
+            }
+            .image {
+                width: 40%;
+                text-align: center;  
+            }
+        </style>
+        <link rel="stylesheet" href="dating.css">
+    </head>
+   
+    <h2 id="font">{{name}}</h2>
+   
+    <body>
+    <div id="retry_button"><a href="index"><strong>Retry</a></div></strong>
+    <div id="about_button2"><a href="about"><strong>About</a></div></strong>
+    <div id="contact_button"><a href="contact"><strong>Contact Us</a></div></strong>
+        <fieldset class="box">
+            <center><legend class="blue"><strong><u>Picture</u></strong></legend></center>
+            <center><img class=image src={{url}}></center>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset class="box">
+            <center><legend class="blue"><strong><u>Description</u></strong></legend></center>
+            <br>
+            <br>
+            <label class="insideBox">Age: {{age}}</label>
+            <br>
+            <br>
+            <br>
+            <label class="insideBox">Gender: {{gender}}</label>
+            <br>
+            <br>
+            <br>
+            <label class="insideBox">Location: {{location}}</label>
+            <br>
+            <br>
+            <br>
+            <label class="insideBox">Hobby: {{hobby}}</label>
+            <br>
+            <br>
+            <br>
+            <label class="insideBox">Phone: {{phone}}</label>
+            <br>
+            <br>
+            <br>
+            <p class="insideBox">About me: {{summary}}</p>
+            <br>
+            <br>
+            <br>
+        </fieldset>  
+    </body>
+</html>
