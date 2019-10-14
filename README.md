@@ -1,5 +1,7 @@
 # SoulFinder
-##***Have you ever felt lonely? Dying to meet your soul mate?***
+***Have you ever felt lonely? Dying to meet your soul mate?***
+
+
 SoulFinder is a webapp that will match you with your deceased soul mate! This project was created for CSSIx 2018.
 
 
