@@ -6,4 +6,4 @@ SoulFinder is a webapp created for CSSIx 2018
 Well wait no longer! SoulFinder is the perfect website to find your perfect match from beyond the grave!
 
 
-![Image of SoulFinder](https://imgur.com/HQAJOqx)
+![Image of SoulFinder](https://i.imgur.com/HQAJOqx.png)
